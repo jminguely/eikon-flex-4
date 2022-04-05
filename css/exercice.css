@@ -9,6 +9,10 @@
   flex-direction: row;
 }
 
+.exercice-flex .element {
+  flex-grow: 0;
+}
+
 /* 2. exercice-flex-2 */
 
 .exercice-flex-2 .container{
