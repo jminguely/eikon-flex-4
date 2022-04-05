@@ -70,3 +70,15 @@
 }
 
 /*8. exercice-all-in */
+.exercice-all-in .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-content: center;
+}
+
+.exercice-all-in .container .element-pink, .element-green, .element-red, 
+.element-yellow, .element-grey, .element-blue{
+  flex-grow: 1;
+}
