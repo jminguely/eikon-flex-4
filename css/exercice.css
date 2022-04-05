@@ -71,3 +71,14 @@
   flex-grow: 1;
 }
 /*8. exercice-all-in */
+.exercice-all-in .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  justify-content: center;
+}
+.exercice-all-in .element{
+  display: flex;
+  flex-grow: 1;
+}
