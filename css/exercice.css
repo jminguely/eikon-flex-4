@@ -40,8 +40,7 @@
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: flex-end;
-  align-items: center;
-  
+  align-content: space-between;
 }
 
 /*6. exercice-flex-grow-1 */
@@ -74,8 +73,21 @@
 }
 
 .exercice-flex-grow-3 .element-green,
-.element-red {
+.exercice-flex-grow-3 .element-red {
   flex-grow: 1;
 }
 
 /*8. exercice-all-in */
+
+.exercice-all-in .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.exercice-all-in .element {
+  flex-grow: 1;
+}
