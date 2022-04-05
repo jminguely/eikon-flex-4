@@ -43,7 +43,14 @@
 }
 
 /*7. exercice-flex-grow-2 */
+.exercice-flex-grow-2 .container {
+  display: flex;
+  flex-direction: column;
+}
 
+.exercice-flex-grow-2 .container .element-green {
+  flex-grow: 1;
+}
 /*8. exercice-flex-grow-3 */
 
 /*8. exercice-all-in */
