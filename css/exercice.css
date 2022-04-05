@@ -85,3 +85,8 @@
 .exercice-all-in .container .element-blue {
   flex-grow: 1;
 }
+
+.exercice-all-in .container .element-red,
+.exercice-all-in .container .element-green {
+  flex-grow: 1;
+}
