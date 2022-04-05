@@ -29,13 +29,8 @@
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: flex-end;
-  align-items: center;
+  align-content: space-between;
 }
-
-/* .exercice-align-content-3 .element-pink {
-  justify-content: flex-start;
-} */
-
 /*6. exercice-flex-grow-1 */
 .exercice-flex-grow-1 .container-small {
   display: flex;
