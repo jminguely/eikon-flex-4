@@ -79,3 +79,9 @@
 .exercice-all-in .container .element-pink {
   flex-grow: 1;
 }
+
+.exercice-all-in .container .element-yellow,
+.exercice-all-in .container .element-gray,
+.exercice-all-in .container .element-blue {
+  flex-grow: 1;
+}
