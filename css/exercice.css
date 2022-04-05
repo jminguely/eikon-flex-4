@@ -24,6 +24,14 @@
 
 /*4. exercice-align-content-2 */
 
+.exercice-align-content-2 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+}
+
 /*5. exercice-align-content-3 */
 
 /*6. exercice-flex-grow-1 */
