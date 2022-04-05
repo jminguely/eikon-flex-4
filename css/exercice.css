@@ -60,4 +60,10 @@
   flex-direction: row;
 }
 
+.exercice-flex-grow-3 .container .element-red,
+.exercice-flex-grow-3 .container .element-green {
+  flex-grow: 1;
+}
+
+
 /*8. exercice-all-in */
