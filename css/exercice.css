@@ -68,4 +68,12 @@
 
 /*8. exercice-flex-grow-3 */
 
+.exercice-flex-grow-3 .container {
+  display: flex;
+}
+
+.exercice-flex-grow-3 .element-green, 
+.element-red {
+  flex-grow: 1;
+}
 /*8. exercice-all-in */
