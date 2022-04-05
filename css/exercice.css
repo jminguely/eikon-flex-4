@@ -24,6 +24,17 @@
   justify-content: center;
 }
 /*5. exercice-align-content-3 */
+.exercice-align-content-3 .container-small {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .exercice-align-content-3 .element-pink {
+  justify-content: flex-start;
+} */
 
 /*6. exercice-flex-grow-1 */
 
