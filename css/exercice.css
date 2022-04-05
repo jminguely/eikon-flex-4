@@ -56,7 +56,17 @@
   display: flex;
 }
 
-.exercice-flex-grow-3 .container .element-red, .element-green, .element-blue {
+.exercice-flex-grow-3 .container .element {
   flex-grow: 1;
 }
 /*8. exercice-all-in */
+.exercice-all-in .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.exercice-all-in .container .element {
+  flex-grow: 1;
+}
