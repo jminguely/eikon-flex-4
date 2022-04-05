@@ -75,3 +75,7 @@
   flex-wrap: wrap-reverse;
   align-content: center;
 }
+
+.exercice-all-in .container .element-pink {
+  flex-grow: 4;
+}
