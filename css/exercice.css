@@ -15,6 +15,15 @@
 
 /*3. exercice-align-content-1 */
 
+.exercice-align-content-1 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+
 /*4. exercice-align-content-2 */
 
 /*5. exercice-align-content-3 */
