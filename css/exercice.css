@@ -56,5 +56,21 @@
   flex-grow: 1;
 }
 /*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .container-small {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+}
 
+.exercice-flex-grow-3 .element-blue {
+  flex-grow: 0.4;
+}
+
+.exercice-flex-grow-3 .element-red {
+  flex-grow: 0.3;
+}
+
+.exercice-flex-grow-3 .element-green {
+  flex-grow: 0.3;
+}
 /*8. exercice-all-in */
