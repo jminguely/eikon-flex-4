@@ -24,10 +24,10 @@
 /*4. exercice-align-content-2 */
 .exercice-align-content-2 .container-small {
   display : flex;
-  align-content : center;
+  align-content :stretch;
   flex-direction: row;
   flex-wrap: wrap;
-
+  justify-content: center ;
 }
 
 /*5. exercice-align-content-3 */
