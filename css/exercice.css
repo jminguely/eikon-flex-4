@@ -76,4 +76,21 @@
 .element-red {
   flex-grow: 1;
 }
+
 /*8. exercice-all-in */
+
+.exercice-all-in .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.exercice-all-in .element-pink,
+.element-yellow,
+.element-gray,
+.element-blue {
+  flex-grow: 1;
+}
