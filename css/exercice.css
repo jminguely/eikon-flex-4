@@ -74,3 +74,14 @@
 }
 
 /*9. exercice-all-in */
+.exercice-all-in .container-small {
+  display : flex;
+  flex-wrap : wrap-reverse;
+  align-content: center;
+  justify-content: center;
+}
+
+.exercice-all-in .element {
+  flex-grow: 1;
+}
+
