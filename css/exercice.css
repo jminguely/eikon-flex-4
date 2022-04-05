@@ -55,6 +55,9 @@
   flex-grow: 1;
 }
 
-/*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .container {
+  display: flex;
+  flex-direction: row;
+}
 
 /*8. exercice-all-in */
