@@ -30,6 +30,13 @@
   flex-wrap: wrap;
 }
 /*5. exercice-align-content-3 */
+.exercice-align-content-3 .container{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-start;
+  align-content: space-between;
+}
 
 /*6. exercice-flex-grow-1 */
 
