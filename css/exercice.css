@@ -10,6 +10,12 @@
 }
 
 /*3. exercice-align-content-1 */
+.exercice-align-content-1 .container {
+  display: flex;
+  align-self: flex-start;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+}
 
 /*4. exercice-align-content-2 */
 
