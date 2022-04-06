@@ -16,14 +16,30 @@
     align-content: center;
 }
 
+.exercice-align-content-2 .container-small {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    align-content: stretch;
+}
 
-/*4. exercice-align-content-2 */
+.exercice-align-content-3 .container-small {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+}
 
+.exercice-flex-grow-1 .container-small {
+    display: flex;
+}
 
-/*5. exercice-align-content-3 */
-
-
-/*6. exercice-flex-grow-1 */
+.element-red {
+    flex-grow: 1;
+}
 
 
 /*7. exercice-flex-grow-2 */
