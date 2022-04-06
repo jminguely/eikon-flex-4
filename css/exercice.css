@@ -1,17 +1,77 @@
 /* 1. exercice-flex */
-
+.exercice-flex .container {
+  display: flex;
+  flex-direction: row;
+}
 /* 2. exercice-flex-2 */
-
+.exercice-flex-2 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
 /*3. exercice-align-content-1 */
-
+.exercice-align-content-1 .container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+}
 /*4. exercice-align-content-2 */
-
+.exercice-align-content-2 .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /*5. exercice-align-content-3 */
-
+.exercice-align-content-3 .container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
 /*6. exercice-flex-grow-1 */
+.exercice-flex-grow-1 .container {
+  display: flex;
+}
 
+.exercice-flex-grow-1 .element-red {
+  flex-grow: 1;
+}
 /*7. exercice-flex-grow-2 */
+.exercice-flex-grow-2 .container {
+  display: flex;
+  flex-direction: column;
+}
 
+.exercice-flex-grow-2 .element-green {
+  flex-grow: 1;
+}
 /*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .container {
+  display: flex;
+}
 
+.element-green,
+.element-red {
+  flex-grow: 1;
+}
+
+.element-blue {
+  flex-grow: 2;
+}
 /*8. exercice-all-in */
+.exercice-all-in .container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  flex-direction: row;
+}
+
+.exercice-all-in .element-pink,
+.exercice-all-in .element-grey,
+.exercice-all-in .element-yellow {
+  flex-grow: 1;
+}
