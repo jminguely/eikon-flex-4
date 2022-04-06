@@ -1,4 +1,9 @@
 /* 1. exercice-flex */
+.exercice-flex .container-small{
+  display: flex;
+  align-self: flex-start;
+  align-items: stretch;
+}
 
 /* 2. exercice-flex-2 */
 
