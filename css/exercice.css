@@ -48,5 +48,19 @@
   flex-grow: 1;
 }
 /*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .container-small {
+  display: flex;
+}
 
+.exercice-flex-grow-3 .container-small .element-red {
+  flex-grow: 1;
+}
+
+.exercice-flex-grow-3 .container-small .element-green {
+  flex-grow: 3;
+}
+
+.exercice-flex-grow-3 .container-small .element-blue {
+  flex-grow: 2;
+}
 /*8. exercice-all-in */
