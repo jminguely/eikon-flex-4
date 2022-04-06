@@ -37,15 +37,45 @@
     display: flex;
 }
 
-.element-red {
+.exercice-flex-grow-1 .element-red {
     flex-grow: 1;
 }
 
+.exercice-flex-grow-2 .container-small {
+    display: flex;
+    flex-direction: column;
+}
 
-/*7. exercice-flex-grow-2 */
+.exercice-flex-grow-2 .element-green {
+    flex-grow: 1;
+}
 
+.exercice-flex-grow-3 .container-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-/*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .element-blue {
+    flex-grow: 2;
+}
 
+.exercice-flex-grow-3 .element-red {
+    flex-grow: 1;
+}
 
-/*8. exercice-all-in */
+.exercice-flex-grow-3 .element-green {
+    flex-grow: 1;
+}
+
+.exercice-all-in .container-small {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.exercice-all-in .element {
+    flex-grow: 1;
+}
