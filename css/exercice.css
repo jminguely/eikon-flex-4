@@ -11,6 +11,13 @@
   align-items: center;
 }
 /*3. exercice-align-content-1 */
+.exercice-align-content-1 .container {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+}
 
 /*4. exercice-align-content-2 */
 
