@@ -60,4 +60,13 @@
 .exercice-flex-grow-3 .element-green {
   flex-grow: 1;
 }
-/*8. exercice-all-in */
+/*9. exercice-all-in */
+.exercice-all-in .container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+}
+
+.exercice-all-in .element {
+  flex-grow: 1;
+}
