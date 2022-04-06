@@ -64,3 +64,13 @@
   flex-grow: 2;
 }
 /*8. exercice-all-in */
+.exercice-all-in .container-small {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.exercice-all-in .element{ 
+  flex-grow: 1;
+}
