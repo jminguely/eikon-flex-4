@@ -1,5 +1,10 @@
+.container {
+  display: flex;
+}
 /* 1. exercice-flex */
-
+.exercice-flex .container {
+  flex-direction: row;
+}
 /* 2. exercice-flex-2 */
 
 /*3. exercice-align-content-1 */
