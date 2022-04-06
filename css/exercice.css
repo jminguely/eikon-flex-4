@@ -28,9 +28,19 @@
   justify-content: center;
 }
 /*5. exercice-align-content-3 */
-
+.exercice-align-content-3 .container {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-start;
+}
 /*6. exercice-flex-grow-1 */
+.exercice-flex-grow-1 .container {
+}
 
+.element-red {
+  flex-grow: 1;
+}
 /*7. exercice-flex-grow-2 */
 
 /*8. exercice-flex-grow-3 */
