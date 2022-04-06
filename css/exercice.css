@@ -24,9 +24,9 @@
 .exercice-align-content-2 .container-small {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   height: 60px;
-  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 /*5. exercice-align-content-3 */
 
