@@ -32,9 +32,24 @@
   align-content: space-between;
 }
 /*6. exercice-flex-grow-1 */
+.exercice-flex-grow-1 .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
+.exercice-flex-grow-1 .element-red {
+  flex-grow: 1;
+}
 /*7. exercice-flex-grow-2 */
+.exercice-flex-grow-2 .container {
+  display: flex;
+  flex-direction: column;
+}
 
+.element-green{
+  align-content: stretch;
+}
 /*8. exercice-flex-grow-3 */
 
 /*8. exercice-all-in */
