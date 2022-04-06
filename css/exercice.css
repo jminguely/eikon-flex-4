@@ -4,6 +4,11 @@
   flex-direction: row;
 }
 /* 2. exercice-flex-2 */
+.exercice-flex-2 .container-small {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 /*3. exercice-align-content-1 */
 
