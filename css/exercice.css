@@ -1,19 +1,19 @@
 /* 1. exercice-flex */
-.exercice-flex .container-small {
+.exercice-flex .container {
   display: flex;
   flex-direction: row;
   height: auto;
 }
 
 /* 2. exercice-flex-2 */
-.exercice-flex-2 .container-small {
+.exercice-flex-2 .container {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 /*3. exercice-align-content-1 */
-.exercice-align-content-1 .container-small {
+.exercice-align-content-1 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
@@ -21,7 +21,7 @@
 }
 
 /*4. exercice-align-content-2 */
-.exercice-align-content-2 .container-small {
+.exercice-align-content-2 .container {
   display: flex;
   flex-direction: row;
   height: 60px;
@@ -30,7 +30,7 @@
 }
 
 /*5. exercice-align-content-3 */
-.exercice-align-content-3 .container-small {
+.exercice-align-content-3 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
@@ -39,6 +39,14 @@
 }
 
 /*6. exercice-flex-grow-1 */
+.exercice-flex-grow-1 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.exercice-flex-grow-1 .element-red {
+  flex-grow: 1;
+}
 
 /*7. exercice-flex-grow-2 */
 
