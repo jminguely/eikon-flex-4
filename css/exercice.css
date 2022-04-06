@@ -23,10 +23,10 @@
 }
 /*5. exercice-align-content-3 */
 .exercice-align-content-3 .container {
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap-reverse;
   align-content: space-between;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 /*6. exercice-flex-grow-1 */
 .exercice-flex-grow-1 .element-red {
