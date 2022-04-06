@@ -59,9 +59,19 @@
 .exercice-flex-grow-2  .element-green {
   display: flex;
   flex-grow: 1;
-
 }
 
 /*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .container-small {
+  display: flex;
+  flex-direction: row;
+}
+
+.exercice-flex-grow-3 .element {
+  display: flex;
+  flex-grow: 1;
+}
+
+
 
 /*8. exercice-all-in */
