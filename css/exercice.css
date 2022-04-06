@@ -47,8 +47,8 @@
   flex-direction: column;
 }
 
-.element-green{
-  align-content: stretch;
+.exercice-flex-grow-2 .element-green{
+  flex-grow: 1;
 }
 /*8. exercice-flex-grow-3 */
 
