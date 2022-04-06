@@ -37,7 +37,7 @@
   flex-direction: column;
 }
 
-..exercice-flex-grow-2 .element-red {
+.exercice-flex-grow-2 .element-red {
   flex-grow: 0;
 }
 
@@ -45,5 +45,7 @@
   flex-grow: 1;
 }
 /*8. exercice-flex-grow-3 */
-
+.exercice-flex-grow-3 .element-blue {
+  flex-grow: 1;
+}
 /*8. exercice-all-in */
