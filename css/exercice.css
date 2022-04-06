@@ -10,7 +10,11 @@
   align-items: center;
 }
 /*3. exercice-align-content-1 */
-
+.exercice-align-content-1 .container-small {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap-reverse;
+}
 /*4. exercice-align-content-2 */
 
 /*5. exercice-align-content-3 */
