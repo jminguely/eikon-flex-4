@@ -6,7 +6,10 @@
   flex-direction: row;
 }
 /* 2. exercice-flex-2 */
-
+.exercice-flex-2 .container {
+  flex-direction: row;
+  align-items: center;
+}
 /*3. exercice-align-content-1 */
 
 /*4. exercice-align-content-2 */
