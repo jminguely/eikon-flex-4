@@ -25,13 +25,15 @@
 
 }
 /*5. exercice-align-content-3 */
+
 .exercice-align-content-3 .container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap-reverse;
-  justify-content: flex-end;
   align-content: space-between;
+  justify-content: flex-end;
 }
-  
+
 /*6. exercice-flex-grow-1 */
 .exercice-flex-grow-1 .container {
   display: flex;
@@ -47,6 +49,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .exercice-flex-grow-2 .element-green {
   display: flex;
   flex-grow: 1;
@@ -72,4 +75,14 @@
   flex-grow: 1;
 }
 
-/*8. exercice-all-in */
+/*9. exercice-all-in */
+.exercice-all-in .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+}
+  
+.exercice-all-in .element {
+  flex-grow: 1;
+}
