@@ -91,3 +91,7 @@
   flex-wrap: wrap-reverse;
   align-content: center;
 }
+
+.exercice-all-in .element {
+  flex-grow: 1;
+}
