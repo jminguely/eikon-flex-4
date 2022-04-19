@@ -69,7 +69,18 @@
 .exercice-flex-grow-3 .container-small {
   display: flex;
   flex-direction: row;
-  flex-grow: inherit;
+}
+
+.exercice-flex-grow-3 .element-blue {
+  flex-grow: 1;
+}
+
+.exercice-flex-grow-3 .element-red {
+  flex-grow: 1;
+}
+
+.exercice-flex-grow-3 .element-green {
+  flex-grow: 1;
 }
 
 /*9. exercice-all-in */
